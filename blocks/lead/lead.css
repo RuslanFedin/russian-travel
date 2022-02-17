@@ -1,0 +1,26 @@
+.lead {
+  margin: 0 auto;
+  max-width: 984px;
+  font-family: 'Inter', Arial, sans-serif;
+  text-align: center;
+  color: #fff;
+}
+
+@media screen and (min-width: 1280px) {
+  .lead{
+    padding-top: 56px;
+  }
+}
+
+@media screen and (min-width: 1024px) and (max-width:1279px) {
+  .lead{
+    padding: 48px 48px 0;
+  }
+}
+
+@media screen and (min-width: 320px) and (max-width:1023px) {
+  .lead{
+    padding-top: 48px;
+    width: 100%;
+  }
+}

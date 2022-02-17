@@ -1,0 +1,18 @@
+.cover__link {
+  display: block;
+  height: 100%;
+  background-image: linear-gradient(to right, rgba(42, 44, 47, 0.3), rgba(42, 44, 47, 0.3)), url('../../../images/cover-trains.jpg');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  font-family: 'Inter', Arial, sans-serif;
+  text-align: center;
+  text-decoration: none;
+  color: #fff;
+}
+
+.cover__link:hover {
+  background-image: linear-gradient(to right, rgba(42, 44, 47, 0.8), rgba(42, 44, 47, 0.8)), url('../../../images/cover-trains.jpg');
+  transition: 0.6s;
+}
+
