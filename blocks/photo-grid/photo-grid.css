@@ -9,7 +9,7 @@
 
 @media screen and (min-width: 1180px) {
   .photo-grid {
-    max-width: 1184px ;
+    max-width: 1184px;
     grid-gap: 16px;
     grid-template-columns: repeat(auto-fill, minmax(284px, 1fr));
   }
