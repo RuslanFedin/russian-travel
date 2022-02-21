@@ -1,5 +1,10 @@
-.photo-grid__item{
+.photo-grid__item {
   width: 100%;
+  transition: 0.6s;
   object-fit: cover;
   object-position: center;
+}
+
+.photo-grid__item:hover {
+  opacity: 0.4;
 }

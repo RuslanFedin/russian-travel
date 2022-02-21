@@ -4,22 +4,31 @@
   align-items: center;
   flex-wrap: wrap;
   margin: 0 auto;
-  padding: 92px 48px 24px;
+  padding-top: 92px;
+  padding-bottom: 24px;
   max-width: 1184px;
   font-family: 'Inter', Arial, sans-serif;
   color: #fff;
 }
 
+@media screen and (min-width: 1024px) and (max-width:1279px) {
+  .footer{
+    max-width: 928px;
+  }
+ }
+
 @media screen and (min-width: 768px) and (max-width:1023px) {
   .footer{
-    padding: 88px 24px 24px;
+    padding-top: 88px;
+    max-width: 720px;
   }
  }
 
  @media screen and (min-width: 320px) and (max-width:767px) {
   .footer{
-    margin: 0;
-    max-width: 186px;
-    padding: 64px 16px 24px;
+    padding-top: 64px;
+    padding-left: 16px;
+    max-width: 320px;
+    box-sizing: border-box;
   }
  }

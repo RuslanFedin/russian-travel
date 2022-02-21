@@ -3,22 +3,31 @@
   justify-content: space-between;
   align-items: flex-end;
   position: relative;
-  padding: 28px 48px 0;
+  padding-top: 28px;
   margin: 0 auto;
   max-width: 1184px;
   min-height: 52px;
 }
 
-@media screen and (min-width: 768px) and (max-width: 1023px){
+
+
+@media screen and (min-width: 1024px) and (max-width: 1279px){
   .header{
-    padding: 28px 24px 0;
+    max-width: 928px;
   }
 }
 
+@media screen and (min-width: 768px) and (max-width: 1023px){
+  .header{
+    max-width: 720px;
+  }
+}
+
+
 @media screen and (min-width: 320px) and (max-width: 767px){
   .header{
-    padding: 16px 16px 0;
-    max-width: 720px;
+    padding-top: 16px;
+    max-width: 288px;
     min-height: 42px;
   }
 }

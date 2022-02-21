@@ -1,8 +1,13 @@
 .intro__list-link {
   margin: 0;
+  transition: 0.6s;
   font-size: 12px;
-  line-height: 1.5;
+  line-height: 18px;
   font-weight: 400;
   text-decoration: none;
   color: #fff;
+}
+
+.intro__list-link:hover {
+  opacity: 0.8;
 }
